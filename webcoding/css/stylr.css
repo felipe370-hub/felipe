@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(58, 6, 6);
+}
+.logos{
+    display:inline-flex;
+    justify-content:flex-start;
+
+
+}
+.logo{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.entrar {
+    display:inline-block;
+    vertical-align: middle;
+   
+}

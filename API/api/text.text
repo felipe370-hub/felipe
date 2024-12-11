@@ -1,0 +1,4 @@
+@app.route('/livros')
+def obter_livros():
+    return json(livros)
+app.run(port=5000,host='locasthost',debug=True)
